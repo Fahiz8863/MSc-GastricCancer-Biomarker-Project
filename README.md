@@ -8,6 +8,12 @@ To identify lncRNAs significantly associated with patient survival outcomes usin
 ## 📂 Datasets Used
 - **TCGA-STAD** (The Cancer Genome Atlas)
 - **PRJNA435914** (European Nucleotide Archive)
+## 📥 Data Access
+Due to large file sizes, raw RNA-Seq data is **not included** in this repository.
+
+To download the data:
+- **TCGA-STAD**: Use [TCGAbiolinks](https://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html) in R
+- **PRJNA435914**: Download from [ENA](https://www.ebi.ac.uk/ena/browser/text-search?query=PRJNA435914) or using `fastq-dump` via SRA Toolkit
 
 ## 🔬 Methods
 - RNA-Seq data preprocessing (QC, alignment using HISAT2, transcript assembly with StringTie)
